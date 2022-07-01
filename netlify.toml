@@ -1,0 +1,8 @@
+[build]
+publish = "static"
+command = "yarn build"
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/builders/ssr"
+status = 200
