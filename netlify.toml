@@ -5,6 +5,8 @@ command = "yarn build"
 [functions."ssr"]
 included_files = [
   ".nuxt/**",
+  "@nuxtjs/axios",
+  "fsxa-nuxt-module"
 ]
 
 [[redirects]]
