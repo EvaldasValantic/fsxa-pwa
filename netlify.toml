@@ -5,7 +5,6 @@ command = "yarn build"
 [functions."ssr"]
 included_files = [
   ".nuxt/**",
-  "node_modules/@storefront-ui/**",
 ]
 
 [[redirects]]
