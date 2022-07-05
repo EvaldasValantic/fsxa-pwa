@@ -6,7 +6,7 @@ const config = require('../../nuxt.config.js');
 function createNuxtHandler(nuxtConfig) {
   const nuxt = new Nuxt({
     ...nuxtConfig,
-    dev: true,
+    dev: false,
     _start: true,
   });
 
