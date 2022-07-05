@@ -1,12 +1,10 @@
 [build]
 publish = "static"
-command = "npm run build"
+command = "yarn build"
 
 [functions."ssr"]
 included_files = [
-  ".nuxt/**",
-  "@nuxtjs/axios",
-  "fsxa-nuxt-module"
+  ".nuxt/**"
 ]
 node_bundler = "esbuild"
 
