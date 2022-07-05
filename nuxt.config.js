@@ -2,7 +2,6 @@ const path = require('path');
 // import { NuxtConfig } from '@nuxt/types/config'
 
 module.exports = {
-  target: 'serverless',
   ssr: true,
   /*
    ** Headers of the page
