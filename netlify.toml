@@ -9,7 +9,6 @@ NODE_VERSION = "14"
 included_files = [
   ".nuxt/**"
 ]
-node_bundler = "esbuild"
 
 [[redirects]]
 from = "/*"
