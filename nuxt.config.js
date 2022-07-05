@@ -100,5 +100,5 @@ module.exports = {
     //   config!.resolve!.alias!.vue = path.resolve('./node_modules/vue')
     // }
   },
-  buildDir: 'dist'
+  // buildDir: 'dist'
 };
