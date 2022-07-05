@@ -7,7 +7,8 @@ NODE_VERSION = "14"
 
 [functions."ssr"]
 included_files = [
-  ".nuxt/**"
+  ".nuxt/**",
+  "dist/**",
 ]
 
 [[redirects]]
