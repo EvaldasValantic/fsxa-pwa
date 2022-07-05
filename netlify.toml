@@ -1,5 +1,5 @@
 [build]
-publish = "dist"
+publish = "static"
 command = "npm run build"
 
 [functions."ssr"]
@@ -8,6 +8,7 @@ included_files = [
   "@nuxtjs/axios",
   "fsxa-nuxt-module"
 ]
+node_bundler = "esbuild"
 
 [[redirects]]
 from = "/*"
