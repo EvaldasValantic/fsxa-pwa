@@ -1,7 +1,7 @@
-import serverless from 'serverless-http';
-import { Nuxt } from 'nuxt-start';
-import { builder } from '@netlify/functions';
-import config from '../../nuxt.config.ts';
+const serverless = require('serverless-http');
+const { Nuxt } = require('nuxt-start');
+const { builder } = require('@netlify/functions');
+const config = require('../../nuxt.config.ts');
 
 function createNuxtHandler(nuxtConfig) {
   const nuxt = new Nuxt({
