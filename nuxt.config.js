@@ -1,7 +1,7 @@
-import path from 'path'
+const path = require('path')
 import { NuxtConfig } from '@nuxt/types/config'
 
-const config: NuxtConfig = {
+module.exports = {
   ssr: true,
   /*
    ** Headers of the page
@@ -101,6 +101,4 @@ const config: NuxtConfig = {
     }
   },
   buildDir: 'dist'
-}
-
-export default config
+};
