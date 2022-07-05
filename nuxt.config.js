@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 // import { NuxtConfig } from '@nuxt/types/config'
 
 module.exports = {
@@ -96,9 +96,9 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    extend(config) {
-      config!.resolve!.alias!.vue = path.resolve('./node_modules/vue')
-    }
+    // extend(config) {
+    //   config!.resolve!.alias!.vue = path.resolve('./node_modules/vue')
+    // }
   },
   buildDir: 'dist'
 };
