@@ -1,0 +1,17 @@
+[build]
+publish = "dist"
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "14"
+
+[functions."ssr"]
+included_files = [
+  ".nuxt/**",
+  "dist/**",
+]
+
+[[redirects]]
+  from = "/*"
+  to = "/200.html"
+  status = 200
