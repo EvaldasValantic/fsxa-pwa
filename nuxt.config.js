@@ -2,8 +2,8 @@ const path = require('path');
 // import { NuxtConfig } from '@nuxt/types/config'
 
 module.exports = {
-  target: 'server',
-  ssr: true,
+  target: 'static',
+  ssr: false,
   /*
    ** Headers of the page
    */
